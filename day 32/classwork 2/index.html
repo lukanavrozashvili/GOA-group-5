@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav id="site_navigation">
+            <ul id="iconbar">
+                <li><a href="#main">Home</a></li>
+                <li><a href="#information">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#socials">Socials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main">
+            <h3 id="home">Hello, my name is Luka Navrozashvili and this is my Portfolio.</h3>
+        </div>
+        <div class="about">
+            <h2 id="information">About Me</h2>
+            <img class="img_deg" src="./me.jfif">
+            <p>I am 15 years old and learning programming in GOA(Goal Oriented-academy) and i live in Tbilisi. Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit. Doloremque nulla deserunt possimus, voluptatum
+                dolores perspiciatis fugit, nostrum officiis nam iste consequatur quasi magnam quae illum asperiores
+                velit aliquam distinctio nemo.</p>
+        </div>
+        <div class="container">
+            <div class="skills">
+                <h4 id="skills">My skills</h4>
+            </div>
+            <div class="skill-list">
+                <div>
+                    <h6>Web Development</h6>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem adipisci veniam dolores excepturi
+                        vel quos, culpa voluptates commodi neque</p>
+                    <a href="#more">More</a>
+                </div>
+                <div>
+                    <h6>Game Development</h6>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem adipisci veniam dolores excepturi
+                        vel quos, culpa voluptates commodi neque</p>
+                    <a href="#more">More</a>
+                </div>
+                <div>
+                    <h6>Web Design</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptate ullam reprehenderit
+                        soluta doloremque? A nemo quod dolorem laborum debitis error distinctio, mollitia ipsum nihil
+                        illum.</p>
+                    <a href="#more">More</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="contact" class="contact-form">
+            <h2>Contact Me</h2>
+            <form id="contactform">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email (Gmail only):</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Gmail address"
+                    pattern="[a-z0-9._%+-]+@gmail.com$" title="Please enter a valid Gmail address" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Enter your message" minlength="5"
+                    maxlength="50" required></textarea>
+
+                <button type="button" onclick="submitForm()">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="socials-header">
+            <h6>My Socials</h6>
+        </div>
+        <div id="socials">
+            <a href="https://www.facebook.com/luka.navrozashvili.1/" target="_blank">Facebook</a>
+            <a href="https://github.com/lukanavrozashvili" target="_blank">GitHub</a>
+            <a href="https://mail.google.com/mail/u/0/#inbox">Email</a>
+        </div>
+    </footer>
+</body>
+
+</html>
