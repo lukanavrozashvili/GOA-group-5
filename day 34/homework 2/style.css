@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Ubuntu&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(81, 81, 81);
+}
+
+.sidemenu {
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    font-weight: bold;
+    background: black;
+    height: 4.5rem;
+    font-size: 25px;
+}
+
+#site_navigation ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    font-family: 'Work Sans';
+}
+
+#site_navigation ul li a {
+    background-color: black;
+    text-decoration: none;
+    color: #EEE7DA;
+}
