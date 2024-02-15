@@ -4,7 +4,6 @@ from turtle import *
 
 #step 1: draw a square
 
-speed(30)
 width(7)
 color("blue")
 forward(200)
