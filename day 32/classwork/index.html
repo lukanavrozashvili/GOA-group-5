@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classwork</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="register">
+            <h3>Register Here</h3>
+            <form id="register" method="post"> <!--შევქმენით ფორმი-->
+                <label>First Name : </label> <!--დავამატეთ ლეიბელი-->
+                <br>
+                <input type="text" name="fname" id="name" placeholder="Enter Your First Name"> <!--დავამატეთ ინფუთ ტიპი სახელად ტექსტი რომელშიც ჩავწერთ რაც ფლეისჰოლდერი გვეუბნება-->
+                <br>
+                <br>
+                <label>Last Name : </label>
+                <br>
+                <input type="text" name="lname" id="name" placeholder="Enter Your Last Name">
+                <br>
+                <br>
+                <label>Your Age : </label>
+                <br>
+                <input type="number" name="age" id="name" placeholder="How Old Are You?">
+                <br>
+                <br>
+                <label>Email : </label>
+                <br>
+                <input type="email" name="email" id="name" placeholder="Enter Your Valid Email">
+                <br>
+                <br>
+                <label>Gender : </label>
+                <br>
+                <input type="radio" name="gender" id="male"> <!--დავამატთ ინფუთ ტიპი რადიო რომელიდანაც ავირჩევთ ჩვენს გენდერს-->
+                <span id="male">Male</span>
+                <input type="radio" name="gender" id="female">
+                <span id="female">Female</span>
+                <br>
+                <br>
+                <input type="button" value="Submit" name="submit" id="submit"> <!--დავამატეთ ინფუთ ტიპი სახელად ბუტონი რომელსაც როცა დავაჭერთ ჩვენი ჩაწერილი ინფორმაცია გაიგზავნება მონცამეთა ბაზაში-->
+            </form>
+        </div>
+        <video width="500px" controls autoplay class="video"> <!--შევქმენით ვიდეო კონტეინერი-->
+            <source src="./ონლაინ უფრო სწრაფია.mp4" type="video/mp4"> <!--დავამატეთ ვიდეო ფაილი-->
+            Video Not Supported
+        </video>
+
+        <audio> <!--შევქმენით აუდიო კონტეინერი-->
+            <source src="./ონლაინ უფრო სწრაფია (online-audio-converter.com).mp3" type="audiofile.mpeg"> <!--დავამტეთ აუდო ფაილი-->
+             Audio Not Supported
+        </audio>
+    </div>
+</body>
+
+</html>

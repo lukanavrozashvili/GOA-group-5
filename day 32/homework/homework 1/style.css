@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script:wght@600&family=Ubuntu&family=Work+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 50px;
+    margin-left: 490px;
+}
+
+.row {
+    width: 350px;
+}
+
+body {
+    background-color: #fafafa !important;
+}
+
+.main {
+    background: #fff;
+    width: 350px;
+    border: 1px solid #e6e6e6;
+    height: 530px;
+}
+
+.main h2 {
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    margin: 30px;
+    margin-left: 25px;
+}
+
+.txt-info {
+    text-align: center;
+    font-family: 'Work Sans';
+    color: gray;
+    margin-top: -15px;
+    margin-left: 15px;
+    margin-right: 25px;
+    font-size: 17px;
+}
+
+.fb-login {
+    background-color: #097DFA;
+    width: 79%;
+    height: 30px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 1px solid #097DFA;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 32px;
+    cursor: pointer;
+    font-family: 'Ubuntu';
+    font-weight: 590;
+}
+
+.or-txt {
+    font-size: 13px !important;
+    color: #999;
+    font-weight: 600;
+    font-family: 'Work Sans';
+    text-align: center;
+    margin-right: 15px;
+    height: 35px;
+    margin-top: 15px;
+}
+
+.or-txt::before {
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 2px;
+    width: 110px;
+    position: relative;
+    top: 11px;
+    margin-left: 31px;
+}
+
+.or-txt::after {
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 2px;
+    width: 112px;
+    position: relative;
+    bottom: 6px;
+    left: 160px;
+    margin-left: 35px;
+}
+
+.form-type {
+    display: block;
+    width: 80%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin-left: 30px;
+    margin-bottom: 6px;
+    font-size: 12px;
+    background-color: #f8f9fa;;
+    font-family: 'Work Sans';
+}
+
+.sign-up {
+    background-color: #097DFA;
+    width: 79%;
+    height: 30px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: 1px solid #097DFA;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 32px;
+    cursor: pointer;
+    font-family: 'Ubuntu';
+    font-weight: 590;
+}
+
+.txt-policy {
+    font-size: 14px;
+    color: #999;
+    font-family: 'Work Sans';
+    width: 95%;
+    margin-left: 3px;
+    text-align: center;
+    font-size: 12px;
+    padding: 5%;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu';
+    border: 1px solid #ced4da;
+    height: 50px;
+    margin-top: 1rem;
+}
+
+.login p {
+    margin-top: 1rem;
+    font-size: 14px;
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(./img.jpg);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+#home-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+}
+
+#home-nav a {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.home-button {
+    box-shadow: 1px 1px 20px #7b68ee;
+    box-shadow: 1px 20px 20px #7b68ee;
+    box-shadow: 1px 1px 20px #7b68ee;;
+}
+
+.home-button button {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #7b68ee;
+    color: white;
+    border: none;
+}
+
+#h2 {
+    color: white;
+    font-size: 45px;
+    font-family: Nunito;
+    padding: 15px;
+    width: 50%;
+    align-items: center;
+    word-spacing: 10px;
+    padding-left: 95px;
+}
+
+.text {
+    color: white;
+    padding: 20px;
+    padding-left: 95px;
+}
+
+.buttons {
+    padding-left: 95px;
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+}
+
+#service {
+    width: 120px;
+    height: 40px;
+    background-color: #ffff;
+    color: #7f75f0;
+    border-radius: 5px;
+    border: none;
+}
+
+#contact {
+    width: 120px;
+    height: 40px;
+    background-color: #7b68ee;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}

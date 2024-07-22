@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Ubuntu&family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    font-family: 'Work Sans';
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    color: rgb(77, 77, 255);
+    height: 130px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+img {
+    float: left;
+    width: 27rem;
+    border-radius: 10px;
+    margin-left: 2%;
+    height: 20rem;
+    border: 1px solid black;
+}
+
+h3 {
+    font-family: 'Ubuntu';
+    font-size: 15px;
+    color: rgb(77, 77, 255);
+    margin-left: 35%;
+    margin-top: 5px;
+}
+
+p {
+    font-family: 'Ubuntu';
+    margin-left: 35%;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.input-right-first {
+    float: right;
+    margin-right: 10rem;
+}
+
+.input-right-second {
+    float: right;
+    margin-top: -2rem;
+    margin-right: 17.5rem;
+}
+
+.input-right-third {
+    float: right;
+    margin-top: -3rem;
+    margin-right: 11.5rem;
+}

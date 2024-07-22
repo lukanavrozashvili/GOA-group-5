@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOA site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="dropdown">
+            <button>Home</button>
+            <div class="content">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#register">Contact</a>
+            </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="column">
+                <img src="./goal.png" width="100%">
+            </div>
+            <div class="column">
+                <img src="./goall.png" width="100%">
+            </div>
+        </div>
+        <div id="about">
+            <h2>About Us</h2>
+            <p>Hello and welcome to our site, the name GOA stands for Goal-Oriented Academy. This academy is very
+                friendly, in here u can learn:</p>
+            <div class="skills">
+                <li>Programming</li>
+                <li>Graphic Design</li>
+                <li>Game Development</li>
+                <li>English</li>
+                <li>Mathematics</li>
+                <li>Data Science</li>
+            </div>
+        </div>
+        <div class="register">
+            <h2>Register Here</h2>
+            <form id="register" method="post">
+                <label>First Name : </label>
+                <br>
+                <input type="text" name="fname" id="name" placeholder="Enter Your First Name">
+                <br>
+                <br>
+                <label>Last Name : </label>
+                <br>
+                <input type="text" name="lname" id="name" placeholder="Enter Your Last Name">
+                <br>
+                <br>
+                <label>Your Age : </label>
+                <br>
+                <input type="number" name="age" id="name" placeholder="How Old Are You?">
+                <br><br>
+                <label>Email : </label>
+                <br>
+                <input type="email" name="email" id="name" placeholder="Enter Your Valid Email">
+                <br><br>
+                <label>Gender : </label>
+                <br>
+                <input type="radio" name="gender" id="male">
+                <span id="male">Male</span>
+                <input type="radio" name="gender" id="female">
+                <span id="female">Female</span>
+                <br><br>
+                <input type="button" value="Submit" name="submit" id="submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
