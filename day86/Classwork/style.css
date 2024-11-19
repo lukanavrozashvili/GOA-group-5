@@ -1,0 +1,45 @@
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border: 2px solid orangered;
+    background-color: salmon;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+}
+button:hover{
+    color: olive;
+    transform: scale(1.1);
+}
+button:nth-child(1){
+    background-color: salmon;
+}
+button:nth-child(2){
+    background-color: orangered;
+}
+button:nth-child(3){
+    background-color: mistyrose;
+}
+button:nth-child(4){
+    background-color: turquoise;
+}
+button:nth-child(6){
+    background-color: crimson;
+}
+button:nth-child(7){
+    background-color: blueviolet;
+}
