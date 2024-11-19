@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div{
+    background-color: orangered;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    color: white;
+}
+.div button{
+    border-radius: 5px;
+    border: solid transparent 5px;
+    width: 150px;
+    color: white;
+    cursor: pointer;
+}
+.div #button1{
+    background-color: green;
+}
+.div #button1:hover{
+    background-color: red;
+}
+.div #button2{
+    background-color: red;
+}
+.div #button2:hover{
+    background-color: green;
+}
