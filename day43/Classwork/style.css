@@ -1,0 +1,25 @@
+.background{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spin{
+    animation-name: spinreload;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: orangered;
+    width: 50px;
+    height: 50px;
+    border: 8px solid green;
+    border-top-color: transparent;
+    border-radius: 200px;
+}
+@-webkit-keyframes spinreload{
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}

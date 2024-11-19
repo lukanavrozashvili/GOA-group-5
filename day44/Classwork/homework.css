@@ -1,0 +1,15 @@
+.background{
+    background-color: cyan;
+    border-radius: 10px solid rgb(7, 160, 160);
+    width: 700px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+}
+.grid{
+    background-color: rgba(14, 193, 133, 0.674);
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 15px;
+}

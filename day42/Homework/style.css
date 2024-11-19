@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+body{
+    background-color: rgb(44, 136, 255);
+}
+*{ 
+    text-decoration: none;
+    list-style: none;
+    /* color: white; */
+    font-family: "Roboto";
+}
+nav, ul, li,h1,button{
+    display: inline;
+}
+ul,li, a:hover{
+    color: orangered;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav button{
+    margin-left: 230px;
+    background-color: rgb(31, 145, 201);
+    width: 150px;
+    height: 50px;
+    border: 10px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+nav button:hover{
+    background-color: rgba(9, 76, 112, 0.775);
+}
+nav h1{
+    margin-right: 230px;
+}
+nav, ul,li{
+    margin-right: 15px;
+    font-size: 18px;
+    color: white;
+}
+nav,ul,li,a,button{
+    color: white;
+}
+main{
+    margin-left: 110px;
+}
+main i{
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-left: 5px;
+    transition: 1.5s ease;
+}
+main i:hover{
+    color: orangered;
+    transform: scale(1.5);
+    background-color: white;
+}
+main h1{
+    font-size: 60px;
+}
+#button{
+    background-color: white;
+    color: blue;
+    width: 150px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1.1s ease;
+}
+#anotherbutton{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 1.1s ease;
+}
+#anotherbutton:hover,#button:hover{
+    background-color: orangered;
+    color: green;
+    transform: scale(1.1);
+}
+.navbar h1, #buttons{
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-name: header;
+}
+@keyframes header{
+    0%{
+        color: gold;
+    }
+    10%{
+        color: crimson;
+    }
+    20%{
+        color: orangered;
+    }
+    30%{
+        color: orange;
+    }
+    40%{
+        color: salmon;
+    }
+    50%{
+        color: skyblue;
+    }
+    60%{
+        color: green;
+    }
+    70%{
+        color: seagreen;
+    }
+    80%{
+        color: darkred;
+    }
+    90%{
+    color: black;
+    }
+    100%{
+        color: mediumblue;
+    }
+}
+main{
+    animation-name: main;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+    color: white;
+}
+@keyframes main{
+    0%{
+        transform: translate(-100px,200px);
+        color: orangered;
+    }
+    100%{
+        color: white;
+    }
+}

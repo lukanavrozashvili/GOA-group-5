@@ -1,0 +1,55 @@
+.background{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: orangered;
+    width: 320px;
+    height: 250px;
+    transform-origin: bottom middle;
+    animation-name: changecolors;
+    animation-duration: 7s;
+    transform: rotate(45deg);
+    /* background: linear-gradient(to right, #ff0000, #00ff00); */
+    transition: 4s;
+}
+.box:hover{
+    transform: rotate(0deg);
+}
+@keyframes changecolors{
+    0% {
+      background-color: red;
+      }
+    10%{
+        background-color: green;
+    }
+    20%{
+        background-color: orange;
+    }
+    30%{
+        background-color: orangered;
+    }
+    40%{
+        background-color: salmon;
+    }
+    50% {
+      background-color: yellow;
+      }
+    60%{
+        background-color: cyan;
+    }
+    70%{
+        background-color: black;
+    }
+    80%{
+        background-color: skyblue;
+    }
+    90%{
+        background-color: blanchedalmond;
+    }
+    100% {
+      background-color: blue;
+      }
+  }

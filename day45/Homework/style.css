@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;0,900;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+nav ul, li,a{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+    color: white;
+}
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #202020;
+    font-size: 21px;
+}
+nav button{
+    width: 200px;
+    height: 70px;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    background-color: #f44647;
+    color: white;
+    font-size: 23px;
+}
+nav i{
+    color: white;
+    cursor: pointer;
+    background-color: #f44647;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+}
+nav i:hover{
+    background-color: rgb(155, 4, 4);
+}
+button{
+    cursor: pointer;
+}
+main{
+    background: url(maxresdefault.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+}
+.welcome{
+    background-color: #f44647;
+    width: 750px;
+    height: 350px;
+    margin-left: 150px;
+    margin-bottom: 90px;
+    color: white;
+    font-size: 17px;
+    border-radius: 15px;
+    border: 5px solid transparent;
+}
+.welcome h2{
+    font-size: 45px;
+}
+.welcome button{
+    width: 130px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border: solid 5px black;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.welcome h1, h2,p,button{
+    margin-left: 15px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.flex i{
+    font-size: 35px;
+}
+.mobile{
+    background-color: black;
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+    width: 100%;
+}
+.gem{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+    width: 100%;
+}
+.bulb{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+    width: 100%;
+}
+.castle{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+    width: 100%;
+}
+.services{
+    background-color: rgba(0, 0, 0, 0.903);
+    text-align: center;
+    color: white;
+}
+#servicehr{
+    width: 190px;
+    margin-left: 700px;
+}
+.services .imgs{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.imgs .img .desc{
+    background-color: #202020;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    transition: 0.3s;
+}
+.imgs img{
+    width: 500px;
+    border-radius: 10px;
+}
+.imgs{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desc:hover{
+    border: 1px solid red;
+}
+.services a{
+    color: red;
+    transition: 0.7s;
+}
+.services a:hover{
+    color: white;
+    font-size: 20px;
+}
+#hr{
+    width: 80px;
+    margin-left: 215px;
+}
+.about-us{
+    background-color: black;
+    display: flex;
+    height: 110vh;
+}
+.about-1, .about-2 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-us img{
+    width: 350px;
+    margin-left: 150px;
+    border-radius: 10px;
+    margin-top: 75px;
+}
+.about-2 img{
+    margin-left: 50px;
+    margin-bottom: 35px;
+}
+.main h1{
+    color: white;
+    position: relative;
+    top: 250px;
+    margin-left: 50px;
+}
+.main p{
+    position: relative;
+    color: white;
+    top: 280px;
+    margin-left: 50px;
+}
+.main button{
+    position: relative;
+    color: white;
+    background-color: #f44647;
+    top: 320px;
+    margin-left: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid 5px transparent;
+    font-size: 15px;
+}
+.main h3{
+    position: relative;
+    color: crimson;
+    top: 220px;
+    margin-left: 50px;
+}
+.happyclients{
+    background: url(counter-bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.Deliveries{
+    width: 300px;
+    height: 200px;
+    background-color: #f44647;
+    text-align: center;
+    border-radius: 15px;
+}
+.Deliveries h2,.Clients h2,.Work h2,.Solutions h2{
+    margin-top: 50px;
+    color: white;
+    font-size: 50px;
+}
+.Deliveries p,.Clients p,.Work p,.Solutions p{
+    font-size: 25px;
+    color: white;
+}
+.Clients{
+    width: 300px;
+    height: 200px;
+    background-color: #f44647;
+    text-align: center;
+    border-radius: 15px;
+}
+.Work{
+    width: 300px;
+    height: 200px;
+    background-color: #f44647;
+    text-align: center;
+    border-radius: 15px;
+}
+.Solutions{
+    width: 300px;
+    height: 200px;
+    background-color: #f44647;
+    text-align: center;
+    border-radius: 15px;
+}
+.blog{
+    background-color: #202020;
+    height: 100vh;
+}
+.blog h1{
+    color: white;
+    text-align: center;
+}
+.developing1{
+    background: url(counter-bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    text-align: center;
+}
+.developing2{
+    background: url(counter.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    text-align: center;
+}
+.developing3{
+    background: url(counter-bgg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 450px;
+    text-align: center;
+}
+.developing{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+}
+.background{
+    background: url(depositphotos_137234504-stock-photo-logistics-and-transportation-of-international.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+.texts{
+    color: white;
+    margin-left: 50px;
+    font-size: 25px;
+}
+.texts #span{
+    color: crimson;
+}
+.texts button{
+    width: 150px;
+    height: 50px;
+    background-color: #f44647;
+    border: 5px solid transparent;
+    border-radius: 10px;
+    color: white;
+}
+.pricing-plan{
+    background-color: #202020;
+    height: 150vh;
+}
+.pricing-plan h1{
+    color: white;
+    text-align: center;
+}
+.orders{
+    display: flex;
+    justify-content: space-around;
+}
+.Basic{
+    background-color: black;
+    height: 600px;
+    width: 450px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.Premium{
+    background-color: black;
+    height: 600px;
+    width: 450px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.Standard{
+    background-color: black;
+    height: 600px;
+    width: 450px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+.Basic:hover,.Standard:hover,.Premium:hover{
+    border: 5px dotted crimson;
+}
+.Basic h2,.Standard h2, .Premium h2{
+    color: crimson;
+    font-size: 38px;
+}
+.Basic #li,.Standard #li, .Premium #li{
+    display: inline-block;
+    background-color: gray;
+    width: 370px;
+    height: 60px;
+}
+.pricing-plan button{
+    color: white;
+    background-color: #f44647;
+    border: 5px solid transparent;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+footer {
+    background-color: #080808;
+    color: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul,li,p{
+    display: inline;
+}
+#p{
+    padding-left: 1100px;
+}

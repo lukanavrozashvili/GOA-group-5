@@ -1,0 +1,73 @@
+.background{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square{
+    height: 250px;
+    width: 250px;
+    background-color: orangered;
+    animation-name: change-color;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+@keyframes change-color{
+    0%{
+        background-color:bisque;
+        transform: translateY(250px);
+    }
+    10%{
+        background-color: orange;
+        transform: translateY(250px);
+    }
+    20%{
+        background-color: green;
+        transform: translateY(-250px);
+    }
+    30%{
+        background-color: cornflowerblue;
+        transform: translateY(-250px);
+    }
+    40%{
+        background-color: coral;
+        transform: translateY(250px);
+    }
+    50%{
+        background-color: seagreen;
+        transform: translateY(250px);
+    }
+    60%{
+        background-color: crimson;
+        transform: translateY(-250px);
+    }
+    70%{
+        background-color: deeppink;
+        transform: translateY(-250px);
+    }
+    80%{
+        background-color: skyblue;
+        transform: translateY(250px);
+    }
+    90%{
+        background-color: burlywood;
+        transform: translateY(250px);
+    }
+    100%{
+        background-color: lime;
+        transform: translateY(-250px);
+    }
+    from{
+        background-color: orange;
+        box-shadow: 2px 2px 2px 8px orangered;
+        border-radius: 300px;
+    }
+    to{
+        background-color: salmon;
+        box-shadow: 2px 2px 2px 8px orangered;
+        border-radius: 300px;
+    }
+}

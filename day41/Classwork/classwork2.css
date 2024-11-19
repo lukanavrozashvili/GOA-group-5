@@ -1,0 +1,13 @@
+.background{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: orangered;
+    width: 300px;
+    height: 250px;
+    transform: rotate(-90deg);
+    transform-origin: bottom left;
+}

@@ -1,0 +1,45 @@
+.background{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 350px;
+    height: 250px;
+    background-color: orangered;
+    transition: 1s;
+    color: transparent;
+}
+.box:active,.box2:active{
+    transform: scale(2.5);
+    transform: rotate(360deg);
+    color: white;
+}
+.box2{
+    width: 350px;
+    height: 250px;
+    background-color: orangered;
+    transform: translate(100px);
+    color: transparent;
+    transition: 5s;
+}
+.box1{
+    width: 350px;
+    height: 250px;
+    background-color: orangered;
+    transform: translate(-100px);
+    color: transparent;
+    transition: 5s;
+}
+h1{
+    text-align: center;
+}
+.box1:active{
+    transform: rotate(90deg);
+    color: white;
+}
+.box2:active{
+    transform: rotate(90deg);
+    color: white;
+}

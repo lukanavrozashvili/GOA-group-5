@@ -1,0 +1,24 @@
+.grid{
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid1,.grid2,.grid3,.grid4,.grid5{
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+}
+.grid1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.grid2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.grid5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}

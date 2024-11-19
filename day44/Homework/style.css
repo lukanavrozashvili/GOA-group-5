@@ -1,0 +1,38 @@
+.grid{
+    gap: 10px;
+    background-color: blue;
+    padding: 10px;
+    display: grid;
+    height: 400px;
+}
+.grid1,.grid2,.grid3,.grid4,.grid5,.grid6,.grid7,.grid8,.grid9,.grid10,.grid11{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.grid1{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.grid3{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.grid5{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column: 3;
+}
+/* .grid7{
+    grid-column-start: ;
+    grid-column-end: ;
+} */
+.grid8{
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.grid11{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
