@@ -1,0 +1,53 @@
+.movie{
+    background-color: orangered;
+    color: white;
+}
+li{
+    list-style-type: none;
+    margin: 5px;
+    padding: 15px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.movie {
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+button {
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 80px;
+    height: 25px;
+    border: none;
+}
+
+button:hover {
+    background-color: #218838;
+}
+.nav {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+p{
+    margin: 5px;
+    padding: 15px;
+    font-size: 17px;
+}
+.counter {
+    margin-top: 30px;
+    font-size: 24px;
+}

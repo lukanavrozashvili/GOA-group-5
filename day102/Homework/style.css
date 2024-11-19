@@ -1,0 +1,9 @@
+body{
+    background: linear-gradient(to right,orange,orangered,green,salmon,crimson);
+}
+*{
+    color: white;
+}
+header{
+    text-align: center;
+}

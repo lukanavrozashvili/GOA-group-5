@@ -1,0 +1,1 @@
+export let arr2 = "meore file"
